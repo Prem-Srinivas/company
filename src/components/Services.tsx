@@ -2,41 +2,48 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { ArrowUpRight } from "lucide-react";
 
+import billboardsImg from "@/assets/billboards.jpg";
+import metroPillarsImg from "@/assets/metro-pillars.jpg";
+import busSheltersImg from "@/assets/bus-shelters.jpg";
+import poleKiosksImg from "@/assets/pole-kiosks.jpg";
+import wallPaintingsImg from "@/assets/wall-paintings.jpg";
+import digitalScreensImg from "@/assets/digital-screens.jpg";
+
 const services = [
   {
     title: "Billboards & Hoardings",
     description: "Large format displays for maximum visibility and impact across highways and city centers.",
-    image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=600&h=400&fit=crop",
+    image: billboardsImg,
     tag: "High Impact",
   },
   {
     title: "Metro Pillars",
     description: "Strategic placements in metro stations and platforms reaching millions daily.",
-    image: "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?w=600&h=400&fit=crop",
+    image: metroPillarsImg,
     tag: "Urban Reach",
   },
   {
     title: "Bus Shelters",
     description: "Transit advertising at bus stops and shelters for consistent brand exposure.",
-    image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=600&h=400&fit=crop",
+    image: busSheltersImg,
     tag: "Street Level",
   },
   {
     title: "Pole Kiosks",
     description: "Street-level advertising on utility poles and kiosks in high-traffic areas.",
-    image: "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=600&h=400&fit=crop",
+    image: poleKiosksImg,
     tag: "Hyperlocal",
   },
   {
     title: "Wall Paintings",
     description: "Creative wall murals and painted advertisements that become landmarks.",
-    image: "https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8?w=600&h=400&fit=crop",
+    image: wallPaintingsImg,
     tag: "Creative",
   },
   {
     title: "Digital Screens",
     description: "Dynamic digital displays for modern, flexible campaign management.",
-    image: "https://images.unsplash.com/photo-1517292987719-0369a794ec0f?w=600&h=400&fit=crop",
+    image: digitalScreensImg,
     tag: "Digital",
   },
 ];
